@@ -1,5 +1,6 @@
 # Query-1
 
+<pre><code>
 DECLARE @STARTDATE DATE = '2024-01-01';
 DECLARE @ENDDATE DATE = '2024-12-31';
 
@@ -201,3 +202,4 @@ FROM (
        AND p.PAYMENT_ID = t.PAYMENT_ID
 ) a
 ORDER BY a.DOS, a.PATIENT_ID;
+</code></pre>
